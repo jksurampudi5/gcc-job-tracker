@@ -1,6 +1,6 @@
 # GCC Scout
 
-A no-build quick-apply dashboard for Hyderabad data-engineering roles. It publishes public job metadata only; the private resume stays outside this repository.
+A no-build quick-apply dashboard for Hyderabad data-engineering roles (3+ years experience). It surfaces active job openings with verified direct application links.
 
 ## Run locally
 
@@ -12,16 +12,18 @@ python3 -m http.server 4173
 
 Then open [http://localhost:4173](http://localhost:4173).
 
-The dashboard is intentionally static so it can be opened immediately without installing dependencies. Role links prefer the employer's direct page and fall back to its official careers hub when a listing becomes unavailable.
+## Refresh Schedule (Every 3 Hours)
 
-## Daily link refresh
+GitHub Actions runs `scripts/check_jobs.py` every 3 hours (`cron: "0 */3 * * *"`).
 
-GitHub Actions runs `scripts/check_jobs.py` every day at 09:00 IST. It checks each public application URL, detects common expired/error responses, and switches to the configured official fallback when possible. The Pages workflow republishes the dashboard after changes.
-
-The workflow automates discovery/link checking, not application submission. Employer forms can require account login, OTPs, CAPTCHA, declarations, and role-specific answers; those should be reviewed and submitted from the employer's page.
+The checker:
+- Verifies that each employer or ATS URL is reachable (HTTP 200).
+- Validates the presence of an active "Apply now" button / form.
+- Strictly flags and removes expired vacancies, filled positions, or generic category/search results pages.
+- Commits updated verification timestamps and republishes GitHub Pages automatically.
 
 ## GitHub Pages
 
-After the first successful Pages workflow, the dashboard URL will be:
+The dashboard is deployed at:
 
 <https://jksurampudi5.github.io/gcc-job-tracker/>

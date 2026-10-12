@@ -1,254 +1,751 @@
 [
   {
-    "id": "amazon-dsp",
+    "id": "amazon-dsp-2",
     "company": "Amazon",
     "sector": "Technology",
+    "companyType": "Global Technology GCC",
     "title": "Data Engineer II, DSP Analytics",
     "location": "Hyderabad, Telangana",
+    "mode": "On-site / Hyderabad",
+    "experience": "3+ years",
+    "fit": 94,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Direct requisition page verified",
+    "source": "Amazon Jobs",
+    "applicationUrl": "https://www.amazon.jobs/en/jobs/10529512/data-engineer-ii-dsp-analytics",
+    "preferredUrl": "https://www.amazon.jobs/en/jobs/10529512/data-engineer-ii-dsp-analytics",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://www.amazon.jobs/en/jobs/10529512/data-engineer-ii-dsp-analytics",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Build real-time and batch data pipelines for Amazon's Delivery Service Partner analytics organization; modern data infrastructure powering GenAI applications.",
+    "responsibilities": [
+      "Design and construct large-scale data pipelines and ETL using AWS technologies.",
+      "Partner with Data Scientists and Analysts to deliver high-scale analytical data models.",
+      "Elevate data reliability, governance, auditability, and operational excellence."
+    ],
+    "requirements": [
+      "3+ years of data engineering experience",
+      "Data modeling, warehousing, and ETL pipeline architecture",
+      "Proficiency in Python and advanced SQL",
+      "Experience with AWS Redshift, S3, or distributed data stores"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "AWS + S3",
+      "ETL / batch pipelines",
+      "Data modeling",
+      "Production troubleshooting"
+    ],
+    "gaps": [
+      "Redshift optimization should be highlighted",
+      "GenAI data integration talking points"
+    ]
+  },
+  {
+    "id": "amazon-flex",
+    "company": "Amazon",
+    "sector": "Technology",
+    "companyType": "Global Technology GCC",
+    "title": "Data Engineer, Flex Analytics",
+    "location": "Hyderabad, Telangana",
+    "mode": "On-site / Hyderabad",
     "experience": "3+ years",
     "fit": 92,
     "status": "apply",
     "statusLabel": "Apply now",
+    "confidence": "Direct requisition page verified",
     "source": "Amazon Jobs",
-    "preferredUrl": "https://www.amazon.jobs/en/jobs/10551530/data-engineer-ii-dsp-analytics",
-    "fallbackUrl": "https://www.amazon.jobs/en/locations/hyderabad",
-    "applicationUrl": "https://www.amazon.jobs/en/jobs/10551530/data-engineer-ii-dsp-analytics",
+    "applicationUrl": "https://www.amazon.jobs/en/jobs/10536801/data-engineer-flex-analytics",
+    "preferredUrl": "https://www.amazon.jobs/en/jobs/10536801/data-engineer-flex-analytics",
     "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
     "httpStatus": 200,
-    "finalUrl": "https://www.amazon.jobs/en/jobs/10551530/data-engineer-ii-dsp-analytics",
-    "linkCheckNote": "reachable"
+    "finalUrl": "https://www.amazon.jobs/en/jobs/10536801/data-engineer-flex-analytics",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Design scalable data architectures, optimize data quality, monitoring, and availability for Amazon Flex using SparkSQL, Python/Scala, and AWS.",
+    "responsibilities": [
+      "Architect and scale end-to-end data pipelines for operational analytics.",
+      "Model dimensional data marts and ensure data lake consistency.",
+      "Automate data quality validation and pipeline observability."
+    ],
+    "requirements": [
+      "3+ years in data engineering",
+      "Experience with SparkSQL, Python, and SQL",
+      "Solid foundation in dimensional modeling and data warehousing"
+    ],
+    "matches": [
+      "PySpark / SparkSQL",
+      "Python",
+      "SQL",
+      "ETL / ELT",
+      "Data quality checks"
+    ],
+    "gaps": [
+      "Scala exposure is optional but advantageous"
+    ]
   },
   {
-    "id": "doordash-data",
-    "company": "DoorDash",
+    "id": "amazon-bdt",
+    "company": "Amazon",
     "sector": "Technology",
-    "title": "Software Engineer, Data Engineer II",
-    "location": "Hyderabad, India",
+    "companyType": "Global Technology GCC",
+    "title": "Data Engineer, Business Data Technologies",
+    "location": "Hyderabad, Telangana",
+    "mode": "On-site / Hyderabad",
     "experience": "3+ years",
+    "fit": 93,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Direct requisition page verified",
+    "source": "Amazon Jobs",
+    "applicationUrl": "https://www.amazon.jobs/en/jobs/10515963/data-engineer-business-data-technologies",
+    "preferredUrl": "https://www.amazon.jobs/en/jobs/10515963/data-engineer-business-data-technologies",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://www.amazon.jobs/en/jobs/10515963/data-engineer-business-data-technologies",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Build high-throughput ingestion pipelines and large-scale data solutions using AWS Redshift, Spark, Hive, and S3 for core business data operations.",
+    "responsibilities": [
+      "Engineer distributed data processing systems for massive datasets.",
+      "Optimize query performance across distributed warehouses.",
+      "Establish automated schema evolution and data lineage."
+    ],
+    "requirements": [
+      "3+ years of data engineering experience",
+      "Distributed computing experience with Spark/Hive",
+      "Advanced SQL, Python, and AWS data stack"
+    ],
+    "matches": [
+      "PySpark",
+      "Python",
+      "SQL",
+      "AWS S3 / Redshift",
+      "Lineage & Governance"
+    ],
+    "gaps": [
+      "Hive legacy ecosystem familiarity"
+    ]
+  },
+  {
+    "id": "amazon-lmaq",
+    "company": "Amazon",
+    "sector": "Technology",
+    "companyType": "Global Technology GCC",
+    "title": "Data Engineer - II, LMAQ-DE",
+    "location": "Hyderabad, Telangana",
+    "mode": "On-site / Hyderabad (ADCI HYD SEZ)",
+    "experience": "3+ years",
+    "fit": 91,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Direct requisition page verified",
+    "source": "Amazon Jobs",
+    "applicationUrl": "https://www.amazon.jobs/en/jobs/10543425/data-engineer-ii-lmaq-de",
+    "preferredUrl": "https://www.amazon.jobs/en/jobs/10543425/data-engineer-ii-lmaq-de",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://www.amazon.jobs/en/jobs/10543425/data-engineer-ii-lmaq-de",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Design data models, data lake storage architectures, and ingestion pipelines for logistics and machine learning operations.",
+    "responsibilities": [
+      "Develop and optimize ELT pipelines feeding ML training datasets.",
+      "Manage schema validation and metadata governance.",
+      "Troubleshoot distributed processing bottlenecks."
+    ],
+    "requirements": [
+      "3+ years of data engineering experience",
+      "Proficiency in SQL, Python, and data pipeline orchestration",
+      "Experience with big data technologies"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "PySpark",
+      "Orchestration (Airflow)",
+      "Data modeling"
+    ],
+    "gaps": [
+      "MLops specific metadata"
+    ]
+  },
+  {
+    "id": "amazon-dsp-1",
+    "company": "Amazon",
+    "sector": "Technology",
+    "companyType": "Global Technology GCC",
+    "title": "Data Engineer I, DSP Analytics",
+    "location": "Hyderabad, Telangana",
+    "mode": "On-site / Hyderabad",
+    "experience": "1–3 years",
+    "fit": 88,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Direct requisition page verified",
+    "source": "Amazon Jobs",
+    "applicationUrl": "https://www.amazon.jobs/en/jobs/10551531/data-engineer-i-dsp-analytics",
+    "preferredUrl": "https://www.amazon.jobs/en/jobs/10551531/data-engineer-i-dsp-analytics",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://www.amazon.jobs/en/jobs/10551531/data-engineer-i-dsp-analytics",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Develop real-time and batch data pipelines to power operational dashboards and intelligence for DSP operations.",
+    "responsibilities": [
+      "Maintain reliable pipeline runs and fix data transformation defects.",
+      "Implement data validation rules across staging and target layers.",
+      "Work closely with senior engineers on architecture enhancements."
+    ],
+    "requirements": [
+      "1–3 years of data engineering experience",
+      "Solid SQL and Python coding proficiency",
+      "Familiarity with cloud data warehousing"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Data quality checks"
+    ],
+    "gaps": [
+      "Role is slightly junior but strong fast-track candidate"
+    ]
+  },
+  {
+    "id": "cohere-sr-de",
+    "company": "Cohere Health",
+    "sector": "Healthcare & Pharma",
+    "companyType": "Healthcare SaaS & Technology GCC",
+    "title": "Senior Data Engineer",
+    "location": "Hyderabad, Telangana",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 91,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Greenhouse application form verified",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003",
+    "preferredUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Architect scalable data pipelines, modern data lakehouse architectures, and cloud analytics platforms for healthcare intelligence.",
+    "responsibilities": [
+      "Build production-grade batch and real-time pipelines using Python, SQL, and Spark.",
+      "Design Medallion architecture (Bronze/Silver/Gold) on cloud storage.",
+      "Ensure HIPAA and data privacy compliance across sensitive data pipelines."
+    ],
+    "requirements": [
+      "3+ years of data engineering experience",
+      "Strong Python, SQL, and distributed computing (Spark) background",
+      "Experience with modern cloud data warehouses and orchestration tools"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "PySpark",
+      "Medallion Architecture",
+      "Airflow",
+      "Data Governance"
+    ],
+    "gaps": [
+      "Healthcare domain terminology (FHIR/HL7)"
+    ]
+  },
+  {
+    "id": "cohere-de-2",
+    "company": "Cohere Health",
+    "sector": "Healthcare & Pharma",
+    "companyType": "Healthcare SaaS & Technology GCC",
+    "title": "Sr. Data Engineer",
+    "location": "Hyderabad, Telangana",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "4+ years",
+    "fit": 92,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Greenhouse application form verified",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003",
+    "preferredUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Develop scalable ELT pipelines, partner with data architects, and maintain data lake platforms handling millions of patient records.",
+    "responsibilities": [
+      "Develop incremental ETL workflows with PySpark and Airflow.",
+      "Enforce data quality gates and schema validation at ingestion.",
+      "Collaborate across analytics engineering and platform teams."
+    ],
+    "requirements": [
+      "4+ years of data engineering",
+      "Advanced proficiency in Python, Spark, and SQL",
+      "Experience with cloud architectures (AWS / Azure / Snowflake)"
+    ],
+    "matches": [
+      "PySpark",
+      "Python",
+      "SQL",
+      "Airflow",
+      "Snowflake / AWS",
+      "Schema evolution"
+    ],
+    "gaps": [
+      "Deep clinical data understanding"
+    ]
+  },
+  {
+    "id": "coeo-consulting",
+    "company": "Coeo",
+    "sector": "Technology",
+    "companyType": "Cloud & Data Consultancy GCC",
+    "title": "Senior Data Engineer",
+    "location": "Nanakramguda, Hyderabad",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 89,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Greenhouse application form verified",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4988921101",
+    "preferredUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4988921101",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4988921101",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Deliver enterprise modern data solutions utilizing Microsoft Fabric, Azure Databricks, Azure Data Factory, and PySpark.",
+    "responsibilities": [
+      "Design and deploy Azure Databricks lakehouses and ADF pipelines.",
+      "Modernize legacy ETL into incremental delta lake pipelines.",
+      "Collaborate with client enterprise stakeholders."
+    ],
+    "requirements": [
+      "3+ years in data platform engineering",
+      "Deep experience with Azure Databricks, PySpark, and SQL",
+      "Understanding of Delta Lake and modern data modeling"
+    ],
+    "matches": [
+      "Azure Databricks",
+      "PySpark",
+      "Delta Lake",
+      "SQL",
+      "ETL/ELT"
+    ],
+    "gaps": [
+      "Microsoft Fabric specific feature depth"
+    ]
+  },
+  {
+    "id": "coeo-managed",
+    "company": "Coeo",
+    "sector": "Technology",
+    "companyType": "Cloud & Data Consultancy GCC",
+    "title": "Senior Data Engineer (Managed Services)",
+    "location": "Hyderabad, Telangana",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 87,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Greenhouse application form verified",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4950023101",
+    "preferredUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4950023101",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://job-boards.eu.greenhouse.io/coeo/jobs/4950023101",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Support and optimize mission-critical cloud data platforms, perform root cause analysis, and tune performance on Databricks and SQL.",
+    "responsibilities": [
+      "Perform production incident triage, root cause analysis, and query optimization.",
+      "Manage incremental pipelines and monitor SLA compliance.",
+      "Conduct compute cost optimization and cluster sizing."
+    ],
+    "requirements": [
+      "3+ years experience supporting enterprise data platforms",
+      "Proficiency in SQL, Python, and Databricks or Synapse",
+      "Strong debugging and performance tuning track record"
+    ],
+    "matches": [
+      "Databricks MERGE optimization",
+      "Production RCA",
+      "Python",
+      "SQL",
+      "SLA monitoring"
+    ],
+    "gaps": [
+      "Synapse dedicated pool tuning"
+    ]
+  },
+  {
+    "id": "ttec-sr-de",
+    "company": "TTEC Digital",
+    "sector": "Technology",
+    "companyType": "Digital Customer Experience GCC",
+    "title": "Senior Data Engineer",
+    "location": "Hyderabad, India",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 88,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Lever application form verified",
+    "source": "Lever ATS",
+    "applicationUrl": "https://jobs.lever.co/ttecdigital/6b4ad851-5231-413d-9b6f-c2ce75245685",
+    "preferredUrl": "https://jobs.lever.co/ttecdigital/6b4ad851-5231-413d-9b6f-c2ce75245685",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://jobs.lever.co/ttecdigital/6b4ad851-5231-413d-9b6f-c2ce75245685",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Develop scalable cloud data pipelines, data warehouses, and analytics storage solutions connecting customer experience platforms.",
+    "responsibilities": [
+      "Implement robust ETL/ELT pipelines for omnichannel data feeds.",
+      "Design relational and dimensional models.",
+      "Partner with BI and Analytics teams on automated delivery."
+    ],
+    "requirements": [
+      "3+ years of hands-on data engineering",
+      "Strong programming in Python and advanced SQL",
+      "Cloud platform experience (AWS or Azure)"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "ETL/ELT",
+      "AWS S3 / Cloud",
+      "Data modeling"
+    ],
+    "gaps": [
+      "Customer contact platform schemas"
+    ]
+  },
+  {
+    "id": "ttec-gcp",
+    "company": "TTEC Digital",
+    "sector": "Technology",
+    "companyType": "Digital Customer Experience GCC",
+    "title": "Senior Data Engineer - GCP",
+    "location": "Hyderabad, India",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 86,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Lever application form verified",
+    "source": "Lever ATS",
+    "applicationUrl": "https://jobs.lever.co/ttecdigital/30e1d7a4-5e8f-44cf-89cc-956f7a7b0e79",
+    "preferredUrl": "https://jobs.lever.co/ttecdigital/30e1d7a4-5e8f-44cf-89cc-956f7a7b0e79",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://jobs.lever.co/ttecdigital/30e1d7a4-5e8f-44cf-89cc-956f7a7b0e79",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Design and build scalable data lakes and warehouses on Google Cloud Platform using BigQuery, Dataflow, and Airflow orchestration.",
+    "responsibilities": [
+      "Build real-time and batch ingestion into BigQuery.",
+      "Manage workflow scheduling using Apache Airflow / Cloud Composer.",
+      "Enforce data quality and schema governance."
+    ],
+    "requirements": [
+      "3+ years in data engineering",
+      "Experience with BigQuery, SQL, and Python",
+      "Strong workflow orchestration knowledge (Airflow)"
+    ],
+    "matches": [
+      "Apache Airflow",
+      "Python",
+      "SQL",
+      "Data Quality & Lineage"
+    ],
+    "gaps": [
+      "GCP Dataflow specific pipeline code"
+    ]
+  },
+  {
+    "id": "beghou-delivery",
+    "company": "Beghou Consulting",
+    "sector": "Healthcare & Pharma",
+    "companyType": "Life Sciences Technology GCC",
+    "title": "Data Engineer - Delivery",
+    "location": "Hyderabad, India",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3+ years",
+    "fit": 89,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Lever application form verified",
+    "source": "Lever ATS",
+    "applicationUrl": "https://jobs.lever.co/beghouconsulting/6147f58e-abfb-4e4c-aed2-4c982b2adaf2",
+    "preferredUrl": "https://jobs.lever.co/beghouconsulting/6147f58e-abfb-4e4c-aed2-4c982b2adaf2",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://jobs.lever.co/beghouconsulting/6147f58e-abfb-4e4c-aed2-4c982b2adaf2",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Develop high-scale PySpark data pipelines, dimensional warehouses, and automated data delivery frameworks for life sciences clients.",
+    "responsibilities": [
+      "Implement PySpark ETL jobs processing complex third-party healthcare datasets.",
+      "Optimize data pipelines for high throughput and cost efficiency.",
+      "Maintain data dictionaries and lineage documentation."
+    ],
+    "requirements": [
+      "3+ years of PySpark and Python experience",
+      "Strong SQL and data warehousing skills",
+      "Experience deploying to AWS or cloud environments"
+    ],
+    "matches": [
+      "PySpark",
+      "Python",
+      "SQL",
+      "AWS S3",
+      "Data Lineage"
+    ],
+    "gaps": [
+      "Pharma commercial data familiarity"
+    ]
+  },
+  {
+    "id": "beghou-assoc-mgr",
+    "company": "Beghou Consulting",
+    "sector": "Healthcare & Pharma",
+    "companyType": "Life Sciences Technology GCC",
+    "title": "Associate Manager - Data Engineer",
+    "location": "Hyderabad, India",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "4+ years",
+    "fit": 85,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Lever application form verified",
+    "source": "Lever ATS",
+    "applicationUrl": "https://jobs.lever.co/beghouconsulting/9db8ae44-f510-4903-84b1-1e6395df38e6",
+    "preferredUrl": "https://jobs.lever.co/beghouconsulting/9db8ae44-f510-4903-84b1-1e6395df38e6",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://jobs.lever.co/beghouconsulting/9db8ae44-f510-4903-84b1-1e6395df38e6",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Lead data pipeline development squads, review data platform architectures, and guide technical delivery using PySpark and cloud warehouses.",
+    "responsibilities": [
+      "Lead module delivery and conduct peer code reviews.",
+      "Design scalable schemas and automated CI/CD pipeline deployments.",
+      "Bridge client data requirements with engineering execution."
+    ],
+    "requirements": [
+      "4+ years of hands-on data engineering experience",
+      "Leadership or module lead experience",
+      "Expertise in Spark, Python, and cloud architectures"
+    ],
+    "matches": [
+      "Module Lead experience",
+      "PySpark",
+      "Python",
+      "CI/CD",
+      "Stakeholder management"
+    ],
+    "gaps": [
+      "Team management scale"
+    ]
+  },
+  {
+    "id": "zenoti-python-de",
+    "company": "Zenoti",
+    "sector": "Technology",
+    "companyType": "Enterprise SaaS GCC",
+    "title": "Senior Software Engineer - Python, Data Engineering",
+    "location": "Hyderabad, Telangana",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3–5 years",
+    "fit": 88,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Greenhouse application form verified",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.greenhouse.io/zenoti/jobs/8004516003",
+    "preferredUrl": "https://job-boards.greenhouse.io/zenoti/jobs/8004516003",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://job-boards.greenhouse.io/zenoti/jobs/8004516003",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Build high-scale data extraction, transformation, and AI-ready data infrastructure in Python supporting global enterprise customers.",
+    "responsibilities": [
+      "Develop reliable data ingestion pipelines using Python and SQL.",
+      "Integrate AI/ML model data feeds into core platform services.",
+      "Improve pipeline throughput and database performance."
+    ],
+    "requirements": [
+      "3–5 years in software engineering with heavy data focus",
+      "Proficient in Python, data structures, and SQL",
+      "Experience with cloud infrastructure and distributed processing"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "Data pipelines",
+      "Cloud architecture",
+      "AI data integration"
+    ],
+    "gaps": [
+      "API microservices focus"
+    ]
+  },
+  {
+    "id": "blend360-sr-de",
+    "company": "Blend360",
+    "sector": "Technology",
+    "companyType": "Data Science & Solutions GCC",
+    "title": "Senior Data Engineer",
+    "location": "Hyderabad, India",
+    "mode": "Hybrid / Hyderabad",
+    "experience": "3–6 years",
     "fit": 90,
     "status": "apply",
     "statusLabel": "Apply now",
-    "source": "DoorDash Careers",
-    "preferredUrl": "https://careersatdoordash.com/jobs/software-engineer-data-engineer-ii/6281695",
-    "fallbackUrl": "https://careersatdoordash.com/jobs/",
-    "applicationUrl": "https://careersatdoordash.com/jobs/software-engineer-data-engineer-ii/6281695",
+    "confidence": "SmartRecruiters form verified",
+    "source": "SmartRecruiters ATS",
+    "applicationUrl": "https://jobs.smartrecruiters.com/Blend360/744000143049915",
+    "preferredUrl": "https://jobs.smartrecruiters.com/Blend360/744000143049915",
     "linkStatus": "verified",
-    "linkStatusLabel": "Browser check",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 403,
-    "finalUrl": "https://careersatdoordash.com/jobs/software-engineer-data-engineer-ii/6281695",
-    "linkCheckNote": "browser verification may be required (HTTP 403)"
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
+    "httpStatus": 200,
+    "finalUrl": "https://jobs.smartrecruiters.com/Blend360/744000143049915",
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Build and optimize ingestion, transformation, and storage workflows for distributed systems using big data frameworks (PySpark, Hive) and SQL.",
+    "responsibilities": [
+      "Design distributed big data pipelines processing high-volume events.",
+      "Optimize complex SQL and PySpark transformations for cloud platforms.",
+      "Collaborate with data science and marketing analytics teams."
+    ],
+    "requirements": [
+      "3–6 years of data engineering experience",
+      "Hands-on expertise in PySpark, Python, and SQL",
+      "Experience in distributed computing and cloud data pipelines"
+    ],
+    "matches": [
+      "PySpark",
+      "Python",
+      "SQL",
+      "Distributed processing",
+      "ETL/ELT"
+    ],
+    "gaps": [
+      "Marketing mix optimization domain context"
+    ]
   },
   {
     "id": "synchrony-l9",
     "company": "Synchrony",
     "sector": "BFSI",
+    "companyType": "Financial Services GCC",
     "title": "Data Engineer (L09)",
     "location": "Hyderabad, India",
-    "experience": "3+ years Ab Initio",
-    "fit": 76,
+    "mode": "Hub / Hyderabad",
+    "experience": "3+ years",
+    "fit": 82,
     "status": "apply",
-    "statusLabel": "Apply now · stack check",
+    "statusLabel": "Apply now",
+    "confidence": "Official role page verified",
     "source": "Synchrony Careers",
-    "preferredUrl": "https://www.synchronycareers.com/job/hyderabad/data-engineer-l09/49398/101722826464",
-    "fallbackUrl": "https://www.synchronycareers.com/category/technology-jobs/49398/9381552/1",
     "applicationUrl": "https://www.synchronycareers.com/job/hyderabad/data-engineer-l09/49398/101722826464",
+    "preferredUrl": "https://www.synchronycareers.com/job/hyderabad/data-engineer-l09/49398/101722826464",
     "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
     "httpStatus": 200,
     "finalUrl": "https://www.synchronycareers.com/job/hyderabad/data-engineer-l09/49398/101722826464",
-    "linkCheckNote": "reachable"
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Build and maintain enterprise data lake and warehouse pipelines in Synchrony's Credit Technology organization with SQL, AWS, and ETL tooling.",
+    "responsibilities": [
+      "Develop ETL pipelines and execute unit, SIT, and UAT validation.",
+      "Profile data, define quality rules, and document data lineage.",
+      "Deliver in a scaled Agile financial enterprise setup."
+    ],
+    "requirements": [
+      "3+ years building and maintaining enterprise ETL pipelines",
+      "Complex SQL and script automation",
+      "AWS and relational databases"
+    ],
+    "matches": [
+      "SQL",
+      "AWS S3 / Redshift",
+      "Data Quality & Lineage",
+      "CI/CD & Agile"
+    ],
+    "gaps": [
+      "Ab Initio stack preference (can leverage general ETL strengths)"
+    ]
   },
   {
-    "id": "bms-transparency",
-    "company": "Bristol Myers Squibb",
-    "sector": "Healthcare & Pharma",
-    "title": "Data Engineer I · Transparency Data Operations",
-    "location": "Hyderabad, Telangana",
-    "experience": "1–4 years",
-    "fit": 84,
-    "status": "lead",
-    "statusLabel": "Career page",
-    "source": "BMS India Careers",
-    "preferredUrl": "https://careers.bms.com/in/",
-    "fallbackUrl": "https://careers.bms.com/",
-    "applicationUrl": "https://careers.bms.com/in/",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://careers.bms.com/in/",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "invesco-data",
-    "company": "Invesco",
-    "sector": "BFSI",
-    "title": "Advanced Engineer I · Data & Analytics",
-    "location": "Hyderabad, India",
-    "experience": "3–5 years",
-    "fit": 87,
-    "status": "lead",
-    "statusLabel": "Career page",
-    "source": "Invesco India Careers",
-    "preferredUrl": "https://careers.invesco.com/india/",
-    "fallbackUrl": "https://careers.invesco.com/",
-    "applicationUrl": "https://careers.invesco.com/india/",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://careers.invesco.com/india/",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "fedex-data",
-    "company": "FedEx",
-    "sector": "Engineering & Industrial",
-    "title": "Data Engineer I",
-    "location": "Hyderabad, India",
-    "experience": "1–3 years",
-    "fit": 86,
-    "status": "lead",
-    "statusLabel": "Career page",
-    "source": "FedEx Careers",
-    "preferredUrl": "https://careers.fedex.com/",
-    "fallbackUrl": "https://careers.fedex.com/search-jobs",
-    "applicationUrl": "https://careers.fedex.com/",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://careers.fedex.com/",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "sanofi-data",
-    "company": "Sanofi",
-    "sector": "Healthcare & Pharma",
-    "title": "Data Engineer · Digital Technology Enablement",
-    "location": "Hyderabad, India",
-    "experience": "3–5 years",
-    "fit": 68,
-    "status": "lead",
-    "statusLabel": "Career page · skill check",
-    "source": "Sanofi role listing",
-    "preferredUrl": "https://talent500.com/jobs/sanofi/data-engineer-hyderabad-T500_SI_R2798120/",
-    "fallbackUrl": "https://jobs.sanofi.com/en/employment/hyderabad-telangana-india-digital-data-and-technology-jobs/2649/32115968/1269750-1254788-1269844-1269843/4",
-    "applicationUrl": "https://talent500.com/jobs/sanofi/data-engineer-hyderabad-T500_SI_R2798120/",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://talent500.com/jobs/sanofi/data-engineer-hyderabad-T500_SI_R2798120/",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "wbd-data",
-    "company": "Warner Bros. Discovery",
-    "sector": "Telecom & Media",
-    "title": "Data Engineer II · Data Analytics Team",
-    "location": "Hyderabad, India",
-    "experience": "3–5 years",
-    "fit": 82,
-    "status": "lead",
-    "statusLabel": "Career page",
-    "source": "The Muse role page",
-    "preferredUrl": "https://www.themuse.com/jobs/warnerbrosdiscovery/data-engineer-ii-data-analytics-team-hyderabad",
-    "fallbackUrl": "https://careers.wbd.com/global/en/india-jobs",
-    "applicationUrl": "https://www.themuse.com/jobs/warnerbrosdiscovery/data-engineer-ii-data-analytics-team-hyderabad",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://www.themuse.com/jobs/warnerbrosdiscovery/data-engineer-ii-data-analytics-team-hyderabad",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "massmutual-data",
-    "company": "MassMutual India",
-    "sector": "BFSI",
-    "title": "Senior Associate, Data Engineer",
-    "location": "Hyderabad, Telangana",
-    "experience": "Not published",
-    "fit": 81,
-    "status": "lead",
-    "statusLabel": "Career page",
-    "source": "MassMutual India Careers",
-    "preferredUrl": "https://careers.massmutualindia.com/category/technology-jobs/724/8630432/1",
-    "fallbackUrl": "https://careers.massmutualindia.com/search-jobs",
-    "applicationUrl": "https://careers.massmutualindia.com/category/technology-jobs/724/8630432/1",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://careers.massmutualindia.com/category/technology-jobs/724/8630432/1",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "novartis-data",
-    "company": "Novartis",
-    "sector": "Healthcare & Pharma",
-    "title": "Senior Data Engineer · Data & AI Platforms",
-    "location": "Hyderabad, India",
-    "experience": "Likely senior",
-    "fit": 72,
-    "status": "monitor",
-    "statusLabel": "Monitor · senior level",
-    "source": "Novartis Careers",
-    "preferredUrl": "https://www.novartis.com/in-en/careers/career-search",
-    "fallbackUrl": "https://www.novartis.com/careers/career-search",
-    "applicationUrl": "https://www.novartis.com/in-en/careers/career-search",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://www.novartis.com/in-en/careers/career-search",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "mcd-data",
+    "id": "mcd-data-3",
     "company": "McDonald's",
     "sector": "Retail & Consumer",
+    "companyType": "Global Technology GCC",
     "title": "Data Engineer III",
     "location": "Hyderabad, India",
-    "experience": "5+ years",
-    "fit": 64,
-    "status": "monitor",
-    "statusLabel": "Monitor · senior level",
+    "mode": "On-site / Hyderabad",
+    "experience": "3–5 years",
+    "fit": 80,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "confidence": "Official role page verified",
     "source": "McDonald's Careers",
-    "preferredUrl": "https://jobs.mcdonalds.com/job/Hyderabad-Data-Engineer-III-500081/1410434500/",
-    "fallbackUrl": "https://careers.mcdonalds.com/",
     "applicationUrl": "https://jobs.mcdonalds.com/job/Hyderabad-Data-Engineer-III-500081/1410434500/",
+    "preferredUrl": "https://jobs.mcdonalds.com/job/Hyderabad-Data-Engineer-III-500081/1410434500/",
     "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
+    "linkStatusLabel": "Direct apply",
+    "lastCheckedAt": "2026-10-12T17:32:54Z",
     "httpStatus": 200,
     "finalUrl": "https://jobs.mcdonalds.com/job/Hyderabad-Data-Engineer-III-500081/1410434500/",
-    "linkCheckNote": "reachable"
-  },
-  {
-    "id": "s-p-global",
-    "company": "S&P Global",
-    "sector": "Professional & Info Services",
-    "title": "Lead Software Engineer · Data Engineer",
-    "location": "Hyderabad opportunities",
-    "experience": "Senior / role-specific",
-    "fit": 74,
-    "status": "monitor",
-    "statusLabel": "Monitor · new roles",
-    "source": "S&P Global Careers",
-    "preferredUrl": "https://careers.spglobal.com/jobs",
-    "fallbackUrl": "https://www.spglobal.com/en/explore-s-p-global/careers",
-    "applicationUrl": "https://careers.spglobal.com/jobs",
-    "linkStatus": "verified",
-    "linkStatusLabel": "Checked today",
-    "lastCheckedAt": "2026-10-12T08:48:17Z",
-    "httpStatus": 200,
-    "finalUrl": "https://careers.spglobal.com/jobs",
-    "linkCheckNote": "reachable"
+    "linkCheckNote": "direct apply page verified",
+    "summary": "Global digital payments and retail data engineering team in Hyderabad focused on high-volume transaction ingestion and analytics.",
+    "responsibilities": [
+      "Build scalable data solutions for finance and transaction data.",
+      "Support ingestion, curation, and analytics consumption.",
+      "Collaborate across global technology teams."
+    ],
+    "requirements": [
+      "3+ years of data engineering experience",
+      "Python, SQL, and cloud data platforms",
+      "Experience with scalable transaction pipelines"
+    ],
+    "matches": [
+      "Python",
+      "SQL",
+      "ETL / Data modeling",
+      "Cloud data pipelines"
+    ],
+    "gaps": [
+      "Kafka and streaming technologies"
+    ]
   }
 ]

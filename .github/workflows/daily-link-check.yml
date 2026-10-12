@@ -1,8 +1,9 @@
-name: Refresh job links
+name: Refresh job links (Every 3 hours)
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    # Runs every 3 hours (at minute 0)
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,5 +26,5 @@ jobs:
             echo "No link-status changes."
             exit 0
           fi
-          git commit -m "chore: refresh job link status"
+          git commit -m "chore: refresh job link status (every 3h)"
           git push
