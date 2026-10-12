@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1020" />
+    <title>GCC Scout · Hyderabad Data Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="GCC Scout home">
+          <span class="brand-mark"><span></span><span></span><span></span></span>
+          <span>GCC <b>Scout</b></span>
+        </a>
+        <div class="topbar-meta">
+          <span>12 Hyderabad roles</span>
+          <a href="https://flexiple.com/gcc/hyderabad" target="_blank" rel="noreferrer">All GCCs ↗</a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="quick-header page-width" id="job-board">
+          <div>
+            <p class="section-label">Hyderabad · Data engineering · 3+ years</p>
+            <h1>Apply to jobs quickly.</h1>
+            <p>Every row has the essentials: role, company, experience, location, fit, and a checked source link.</p>
+          </div>
+          <span class="checked-note">Links checked<br /><b>12 Oct 2026</b></span>
+        </section>
+
+        <section class="job-board page-width">
+          <div class="filter-bar">
+            <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Search jobs or companies…" /></label>
+            <div class="filter-group"><label class="filter-label" for="status-filter">Status</label><select id="status-filter"><option value="all">All</option><option value="apply">Apply now</option><option value="lead">Career lead</option><option value="monitor">Monitor</option></select></div>
+            <div class="filter-group"><label class="filter-label" for="sector-filter">Sector</label><select id="sector-filter"><option value="all">All sectors</option><option value="Technology">Technology</option><option value="BFSI">BFSI</option><option value="Healthcare & Pharma">Healthcare & Pharma</option><option value="Retail & Consumer">Retail & Consumer</option><option value="Telecom & Media">Telecom & Media</option><option value="Engineering & Industrial">Engineering</option></select></div>
+            <button class="clear-filter" id="clear-filters" type="button">Reset</button>
+          </div>
+
+          <div class="list-summary"><span id="result-count">12 jobs</span><span class="sort-note">Best resume fit first <span>↓</span></span></div>
+          <div class="job-table-head" aria-hidden="true"><span>Role / company</span><span>Location</span><span>Experience</span><span>Fit</span><span>Action</span></div>
+          <div id="role-list" class="job-list"></div>
+          <div id="empty-state" class="empty-state hidden"><span>⌁</span><h3>No jobs found</h3><p>Try another search or reset the filters.</p></div>
+        </section>
+      </main>
+
+      <footer class="footer page-width"><span>GCC Scout · Hyderabad job shortlist</span><span>Refresh the source page before applying</span></footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

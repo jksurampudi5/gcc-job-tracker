@@ -1,0 +1,25 @@
+name: Refresh job links
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check application pages
+        run: python3 scripts/check_jobs.py
+      - name: Commit updated link status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --cached --quiet || git commit -m "chore: refresh job link status"
+          git diff --cached --quiet || git push
