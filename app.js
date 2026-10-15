@@ -756,6 +756,66 @@ const jobs = [
     "gaps": [
       "Kafka and streaming technologies"
     ]
+  },
+  {
+    "id": "uhg-senior-de-2390903",
+    "company": "UnitedHealth Group",
+    "sector": "Healthcare & Pharma",
+    "title": "Senior Data Engineer",
+    "location": "Hyderabad, India",
+    "experience": "3+ years",
+    "fit": 96,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "source": "UnitedHealth Group Careers",
+    "applicationUrl": "https://careers.unitedhealthgroup.com/job/hyderabad/senior-data-engineer/34088/101897997568",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply"
+  },
+  {
+    "id": "amgen-data-engineer-r236186",
+    "company": "Amgen",
+    "sector": "Healthcare & Pharma",
+    "title": "Data Engineer",
+    "location": "India - Hyderabad",
+    "experience": "5–9 years",
+    "fit": 79,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "source": "Amgen Careers",
+    "applicationUrl": "https://careers.amgen.com/en/job/hyderabad/data-engineer/87/92340919184",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply"
+  },
+  {
+    "id": "brillio-snowflake-de-r01569573",
+    "company": "Brillio",
+    "sector": "Technology",
+    "title": "Senior Data Engineer - Snowflake",
+    "location": "Hyderabad / Bangalore / Pune / Chennai / Gurgaon",
+    "experience": "4–6 years",
+    "fit": 84,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "source": "Lever ATS",
+    "applicationUrl": "https://jobs.lever.co/brillio-2/ec5351fd-fb8e-4d9c-886d-0ce3cbd14477",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply"
+  },
+  {
+    "id": "capco-scala-spark-de-8018268",
+    "company": "Capco",
+    "sector": "BFSI",
+    "title": "Data Engineer - Scala and Spark/PySpark",
+    "location": "India - Hyderabad",
+    "experience": "4+ years",
+    "fit": 78,
+    "status": "apply",
+    "statusLabel": "Apply now",
+    "source": "Greenhouse ATS",
+    "applicationUrl": "https://job-boards.greenhouse.io/capco/jobs/8018268",
+    "linkStatus": "verified",
+    "linkStatusLabel": "Direct apply"
   }
 ];
 
